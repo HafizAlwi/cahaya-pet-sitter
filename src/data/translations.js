@@ -22,8 +22,8 @@ export const translations = {
           desc: "Kucing anda tidak perlu berpindah ke tempat baru. Mereka kekal selesa di kawasan jajahan mereka sendiri."
         },
         {
-          title: "Bebas Penyakit Berjangkit",
-          desc: "Sifar risiko terdedah kepada penyakit dari kucing-kucing lain seperti di hotel kucing."
+          title: "Tiada Risiko Penyakit",
+          desc: "Tidak terdedah kepada risiko penyakit kucing lain di cat hotel."
         },
         {
           title: "Perhatian Sepenuhnya",
@@ -97,8 +97,8 @@ export const translations = {
           desc: "Your cats don't need to move to a new place. They stay comfortable in their own territory."
         },
         {
-          title: "Zero Disease Exposure",
-          desc: "No risk of catching illnesses from other cats unlike in a cat hotel environment."
+          title: "No Disease Exposure",
+          desc: "Cats are not exposed to illnesses from other cats like they might be at a cat hotel."
         },
         {
           title: "Undivided Attention",
