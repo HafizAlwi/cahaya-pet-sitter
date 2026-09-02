@@ -22,8 +22,8 @@ export const translations = {
           desc: "Kucing anda tidak perlu berpindah ke tempat baru. Mereka kekal selesa di kawasan jajahan mereka sendiri."
         },
         {
-          title: "Risiko Penyakit Rendah",
-          desc: "Tidak terdedah kepada risiko penyakit kucing lain di cat hotel."
+          title: "Tidak terdedah kepada penyakit kucing luar",
+          desc: "Kucing tidak akan terdedah kepada risiko penyakit kucing lain di tempat seperti Cat Hotel"
         },
         {
           title: "Perhatian Sepenuhnya",
