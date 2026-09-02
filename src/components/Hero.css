@@ -51,17 +51,7 @@
   width: 100%;
   max-width: 480px;
   border-radius: var(--radius-lg);
-  /* Removing box-shadow from the animated element significantly boosts frame rate */
-  animation: float 6s ease-in-out infinite;
-  /* Hardware acceleration for the image */
-  will-change: transform;
-  backface-visibility: hidden;
-}
-
-@keyframes float {
-  0% { transform: translate3d(0, 0px, 0); }
-  50% { transform: translate3d(0, -15px, 0); }
-  100% { transform: translate3d(0, 0px, 0); }
+  /* Keeping it static for a cleaner, non-distracting look */
 }
 
 @media (max-width: 992px) {
