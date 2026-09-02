@@ -28,7 +28,7 @@ const Pricing = ({ t }) => {
           <p className="pricing-note">{t.note}</p>
           
           <div className="pricing-action">
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-book">
+            <a href="https://wa.me/601169304474?text=Hai%20saya%20berminat%20untuk%20servis%20Cahaya%20Pet%20Sitter" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-book">
               Book Now via WhatsApp
             </a>
           </div>

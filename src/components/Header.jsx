@@ -26,7 +26,7 @@ const Header = ({ lang, setLang, t }) => {
           >
             {lang === 'ms' ? 'BM' : 'EN'}
           </button>
-          <a href="https://wa.me/601169304474" className="btn btn-primary book-btn" target="_blank" rel="noopener noreferrer">{t.book}</a>
+          <a href="https://wa.me/601169304474?text=Hai%20saya%20berminat%20untuk%20servis%20Cahaya%20Pet%20Sitter" className="btn btn-primary book-btn" target="_blank" rel="noopener noreferrer">{t.book}</a>
         </div>
       </div>
     </header>
