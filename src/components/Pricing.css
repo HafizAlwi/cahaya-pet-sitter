@@ -1,0 +1,90 @@
+.pricing {
+  background: linear-gradient(0deg, var(--background) 0%, rgba(244, 162, 97, 0.05) 100%); /* Soft Amber fade */
+}
+
+.pricing-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 64px 48px;
+  border: 2px solid rgba(244, 162, 97, 0.3);
+  transform: scale(1);
+}
+
+.pricing-card:hover {
+  transform: scale(1.02);
+  border-color: var(--primary);
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.pricing-tier {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+.price-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+}
+
+.price {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--text-main);
+  font-family: var(--font-heading);
+  line-height: 1;
+}
+
+.price-period {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+}
+
+.pricing-features {
+  margin-bottom: 32px;
+}
+
+.pricing-features li {
+  padding: 12px 0;
+  font-size: 1.125rem;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pricing-note {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.pricing-action {
+  text-align: center;
+}
+
+.btn-book {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .pricing-card {
+    padding: 32px 24px;
+  }
+  
+  .price {
+    font-size: 3rem;
+  }
+}

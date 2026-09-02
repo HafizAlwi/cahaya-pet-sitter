@@ -1,0 +1,81 @@
+.hero {
+  padding: 160px 0 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  color: var(--text-main);
+  margin-bottom: 24px;
+  line-height: 1.1;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.hero-image-container {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-backdrop {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  /* Use radial gradient with transparent edges instead of an expensive blur filter */
+  background: radial-gradient(circle, rgba(244, 162, 97, 0.25) 0%, rgba(13, 59, 102, 0.1) 40%, rgba(250, 249, 246, 0) 70%);
+  border-radius: 50%;
+  z-index: -1;
+  transform: translateZ(0);
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 480px;
+  border-radius: var(--radius-lg);
+  /* Removing box-shadow from the animated element significantly boosts frame rate */
+  animation: float 6s ease-in-out infinite;
+  /* Hardware acceleration for the image */
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+@keyframes float {
+  0% { transform: translate3d(0, 0px, 0); }
+  50% { transform: translate3d(0, -15px, 0); }
+  100% { transform: translate3d(0, 0px, 0); }
+}
+
+@media (max-width: 992px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+  }
+  
+  .hero-subtitle {
+    margin: 0 auto 40px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
