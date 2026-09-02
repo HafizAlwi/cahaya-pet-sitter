@@ -22,7 +22,7 @@ export const translations = {
           desc: "Kucing anda tidak perlu berpindah ke tempat baru. Mereka kekal selesa di kawasan jajahan mereka sendiri."
         },
         {
-          title: "Tiada Risiko Penyakit",
+          title: "Risiko Penyakit Rendah",
           desc: "Tidak terdedah kepada risiko penyakit kucing lain di cat hotel."
         },
         {
@@ -97,7 +97,7 @@ export const translations = {
           desc: "Your cats don't need to move to a new place. They stay comfortable in their own territory."
         },
         {
-          title: "No Disease Exposure",
+          title: "Lower Disease Risk",
           desc: "Cats are not exposed to illnesses from other cats like they might be at a cat hotel."
         },
         {
